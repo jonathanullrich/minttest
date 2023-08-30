@@ -6,7 +6,18 @@ confettiButton.addEventListener("click", () => {
     const confetti = new ConfettiGenerator({
         target: "confettiContainer", // The ID of the container where confetti will be generated
         max: 80, // Max number of confetti particles
-        colors: ["#ff0000", "#00ff00", "#0000ff", "#ff00ff", "#ffff00", "#00ffff"], // Array of confetti colors
+        colors: [
+            "#ff0000", // Red
+            "#00ff00", // Green
+            "#0000ff", // Blue
+            "#ff00ff", // Magenta
+            "#ffff00", // Yellow
+            "#00ffff", // Cyan
+            "#ff9900", // Orange
+            "#9900ff", // Purple
+            "#00ff99", // Teal
+            "#ff0099", // Pink
+        ], // Array of confetti colors
         size: 1, // Size of confetti particles
         animate: true,
     });
